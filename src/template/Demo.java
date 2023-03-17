@@ -2,8 +2,7 @@ package template;
 
 public class Demo {
     public static void main(String[] args) {
-        Window window = new FolderWindow();
-
+        var window = new FullScreenWindow();
         window.close();
     }
 }
